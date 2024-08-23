@@ -3,9 +3,9 @@ package com.cg.fms.model;
 import java.util.List;
 import java.util.Set;
 
-import javax.persistence.OneToMany;
-import javax.validation.constraints.NotEmpty;
-import javax.validation.constraints.NotNull;
+import jakarta.persistence.OneToMany;
+import jakarta.validation.constraints.NotEmpty;
+import jakarta.validation.constraints.NotNull;
 
 
 public class OrderModel {
