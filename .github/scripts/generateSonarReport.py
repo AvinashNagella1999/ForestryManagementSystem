@@ -6,7 +6,6 @@ def get_sonarcloud_issues(sonar_token, project_key, pull_request, organization):
     url = "https://sonarcloud.io/api/issues/search"
     params = {
         "componentKeys": project_key,
-        "pullRequest": pull_request,
         "organization": organization,
         "resolved": "false"
     }
