@@ -5,7 +5,7 @@ name: SonarQube Analysis and Code Review
 on:
   pull_request:
     branches:
-      - release
+      - dev
 
 jobs:
   sonarqube-analysis:
